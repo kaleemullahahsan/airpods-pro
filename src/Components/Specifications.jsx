@@ -8,7 +8,7 @@ function Specifications() {
     <>
       <div className="bg-[var(--accentGray)] text-black rounded-lg relative overflow-visible">
         <section className="relative overflow-visible">
-          <div className="flex  justify-between items-end flex-col md:flex-row relative overflow-visible">
+          <div className="flex  justify-center items-end flex-col md:flex-row relative overflow-visible">
             <div className="flex justify-center  items-center gap-10 relative overflow-visible">
               <img
                 src={`${topImage}`}
@@ -22,12 +22,12 @@ function Specifications() {
                 noise works with th H1 chip to control listening levels.
               </p>
             </div>
-            <p className="text-lg font-semibold text-justify max-w-100 indent-5" data-aos="fade-up">
+            <p className="text-lg font-semibold text-justify max-w-100 indent-5 mt-10 md:mt-0" data-aos="fade-up">
               A super-efficifient high dynamic range amplifire produces pure,
               increadibly clear sound while also extending battery life.
             </p>
           </div>
-          <div className="mt-20">
+          <div className="md:mt-20 mt-10">
             <p className="text-lg font-semibold text-justify max-w-100 m-auto indent-5" data-aos="fade-down">
               The Appl-designed H1 chip employs 10 audio cores, creating
               increadbly low audio processing latency that enable real-time
@@ -77,7 +77,7 @@ function Specifications() {
               low-distortion speaker driver.
             </p>
           </div>
-          <div className="mt-60 text-center">
+          <div className="md:mt-60 mt-15 text-center">
             <div className="text-xl font-bold" data-aos="fade-down">Battery</div>
             <h3 className="md:text-6xl text-3xl font-bold text-center mt-4" data-aos="fade-up">
               Charge wirelessly

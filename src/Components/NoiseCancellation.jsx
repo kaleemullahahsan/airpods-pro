@@ -22,14 +22,14 @@ function NoiseCancellation() {
             feel like there's nothing in your ears.
           </p>
         </div>
-        <div className="mt-45">
+        <div className="md:mt-45 mt-15">
           <div className="text-center">
             <div className="text-xl font-bold" data-aos="fade-down">Active Noise Cancellation</div>
             <h3 className="md:text-6xl text-3xl font-bold my-5" data-aos="fade-up">
               Sounds That Cut The Noise
             </h3>
           </div>
-          <div className="text-lg mt-35">
+          <div className="text-lg md:mt-35 mt-15">
             <p className="max-w-90" data-aos="fade-right">
               An Outward-facing microphone detects external sound
             </p>
@@ -46,7 +46,7 @@ function NoiseCancellation() {
             </p>
           </div>
         </div>
-         <h3 className="md:text-6xl text-3xl font-bold my-5 text-center mt-45" data-aos="fade-down">
+         <h3 className="md:text-6xl text-3xl font-bold my-5 text-center md:mt-45 mt-15" data-aos="fade-down">
              Specifications
             </h3>
       </section>
