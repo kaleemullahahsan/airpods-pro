@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@theme {
+  --accentGray: #f1f1f1;
+  --widthfull: widthfull 1s ease-in-out infinite;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #000;
+    color: white;
+    overflow-x: hidden;
+  }
+  header {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  section {
+    padding: 30px 20px;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .animated-after-line::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    animation: widthfill 4s ease-in-out forwards;
+  }
+  
+  @keyframes widthfill {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+}
+@layer utilities {
+  .mygray {
+    color: #ccd0d2;
+  }
+}
