@@ -7,7 +7,7 @@ import instagram from "/images/instagram.png";
 function Footer() {
   return (
     <>
-      <section className="flex items-center justify-between gap-10" data-aos="fade-in">
+      <section className="flex items-center justify-between gap-10">
         <div className="w-50">
           <a href="#">
             <img src={`${logo}`} alt="" className="md:max-w-10 max-w-5" />
