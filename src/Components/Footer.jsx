@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <section className="flex items-center justify-between gap-10">
-        <div className="w-50">
+        <div className="w-50 hidden md:block">
           <a href="#">
             <img src={`${logo}`} alt="" className="md:max-w-10 max-w-5" />
           </a>
@@ -21,24 +21,24 @@ function Footer() {
             <img
               src={`${facebook}`}
               alt=""
-              className="md:max-w-120 max-w-10 object-bottom"
+              className="md:max-w-120 w-5 object-bottom"
             />
           </a>
           <a href="#" className="bg-white rounded-full p-2">
-            <img src={`${x}`} alt="" className="md:max-w-120 max-w-50 object-bottom" />
+            <img src={`${x}`} alt="" className="md:max-w-120 w-5 object-bottom" />
           </a>
           <a href="#" className="bg-white rounded-full p-2">
             <img
               src={`${linkedIn}`}
               alt=""
-              className="md:max-w-120 max-w-50 object-bottom"
+              className="md:max-w-120 w-5 object-bottom"
             />
           </a>
           <a href="#" className="bg-white rounded-full p-2">
             <img
               src={`${instagram}`}
               alt=""
-              className="md:max-w-120 max-w-50 object-bottom"
+              className="md:max-w-120 w-5 object-bottom"
             />
           </a>
         </div>
