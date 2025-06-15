@@ -9,7 +9,7 @@ function Quality() {
               <h3 className='md:text-6xl text-2xl font-bold md:my-5 my-2 '>Everything you hear is unheard of</h3>
             </div>
             <div>
-                <img src={`${image}`}  alt="" data-aos="fade-in"/>
+                <img src={`${image}`} className='h-[300px] md:h-auto object-bottom object-cover'  alt="" data-aos="fade-in"/>
             </div>
         </section>
       </div>
