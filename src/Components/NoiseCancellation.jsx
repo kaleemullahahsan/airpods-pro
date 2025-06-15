@@ -11,7 +11,7 @@ function NoiseCancellation() {
           <img src={`${rightBud}`} alt="" className="md:max-w-100 max-w-30" data-aos="fade-up"/>
         </div>
         <div className="m-auto max-w-100 md:mt-30 mt-10" data-aos="fade-in">
-          <p className="md:text-lg text-sm text-justify pt-10">
+          <p className="text-lg text-justify pt-10">
             Choose from three sizes of soft, flexible silicon tips that are
             click into place. Find the best fit-and get the best sound-by using
             the Ear Tip Fit Test.
@@ -24,7 +24,7 @@ function NoiseCancellation() {
         </div>
         <div className="md:mt-45 mt-15">
           <div className="text-center">
-            <div className="text-xl font-bold" data-aos="fade-down">Active Noise Cancellation</div>
+            <div className="text-xl font-semibold" data-aos="fade-down">Active Noise Cancellation</div>
             <h3 className="md:text-6xl text-3xl font-bold my-5" data-aos="fade-up">
               Sounds That Cut The Noise
             </h3>
