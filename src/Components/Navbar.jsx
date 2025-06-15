@@ -70,7 +70,7 @@ function Navbar() {
               close
             </span>
           </div>
-          <ul className="flex flex-col gap-6 text-black text-lg">
+          <ul className="flex flex-col gap-6 text-black md:text-lg text-base">
             <li>
               <a href="#" onClick={closeMenu}>
                 Store

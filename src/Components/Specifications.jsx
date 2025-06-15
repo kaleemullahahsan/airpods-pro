@@ -17,18 +17,18 @@ function Specifications() {
                 data-aos="fade-up"
               />
 
-              <p className="text-lg text-justify md:max-w-100 indent-5" data-aos="fade-up">
+              <p className="md:text-lg text-base text-justify md:max-w-100 indent-5" data-aos="fade-up">
                 The amplifire powers the speaker driver to remove background
                 noise works with th H1 chip to control listening levels.
               </p>
             </div>
-            <p className="text-lg text-justify max-w-100 indent-5 mt-10 md:mt-0" data-aos="fade-up">
+            <p className="md:text-lg text-base text-justify max-w-100 indent-5 mt-10 md:mt-0" data-aos="fade-up">
               A super-efficifient high dynamic range amplifire produces pure,
               increadibly clear sound while also extending battery life.
             </p>
           </div>
           <div className="md:mt-20 mt-10">
-            <p className="text-lg  text-justify max-w-100 m-auto indent-5" data-aos="fade-down">
+            <p className="md:text-lg text-base  text-justify max-w-100 m-auto indent-5" data-aos="fade-down">
               The Appl-designed H1 chip employs 10 audio cores, creating
               increadbly low audio processing latency that enable real-time
               noise cancellation.
@@ -51,7 +51,7 @@ function Specifications() {
       <div>
         <section className="mt-20 pb-0">
           <div>
-            <p className="text-lg  text-justify max-w-100 indent-5" data-aos="fade-in">
+            <p className="md:text-lg text-base  text-justify max-w-100 indent-5" data-aos="fade-in">
               Powerfull bass is delivered by a custom-built high-excurasion,
               low-distortion speaker driver.
             </p>
@@ -72,7 +72,7 @@ function Specifications() {
               className="m-auto md:translate-x-37 -translate-x-10 md:max-w-30 max-w-10"
               data-aos="fade-in"
             />
-            <p className="text-lg text-justify max-w-100 indent-5 ml-auto mt-3" data-aos="fade-in">
+            <p className="md:text-lg text-base text-justify max-w-100 indent-5 ml-auto mt-3" data-aos="fade-in">
               Powerfull bass is delivered by a custom-built high-excurasion,
               low-distortion speaker driver.
             </p>

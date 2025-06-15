@@ -11,12 +11,12 @@ function NoiseCancellation() {
           <img src={`${rightBud}`} alt="" className="md:max-w-100 max-w-30" data-aos="fade-up"/>
         </div>
         <div className="m-auto max-w-100 md:mt-30 mt-10" data-aos="fade-in">
-          <p className="text-lg text-justify pt-10">
+          <p className="md:text-lg text-base text-justify pt-10">
             Choose from three sizes of soft, flexible silicon tips that are
             click into place. Find the best fit-and get the best sound-by using
             the Ear Tip Fit Test.
           </p>
-          <p className="text-lg text-justify pt-10">
+          <p className="md:text-lg text-base text-justify pt-10">
             These internally tapered tips confirm to your ear shape, keeping
             Airpods Pro secure. And with vents helping equalize pressure, you
             feel like there's nothing in your ears.
@@ -29,7 +29,7 @@ function NoiseCancellation() {
               Sounds That Cut The Noise
             </h3>
           </div>
-          <div className="text-lg md:mt-35 mt-15">
+          <div className="md:text-lg text-base md:mt-35 mt-15">
             <p className="max-w-90" data-aos="fade-right">
               An Outward-facing microphone detects external sound
             </p>
@@ -40,7 +40,7 @@ function NoiseCancellation() {
           </div>
           <div className="mt-10">
             <img src={`${image}`} alt="" width="100%" data-aos="fade-in" />
-            <p className="text-lg text-justify pt-10 max-w-100 m-auto mt-5" data-aos="fade-up">
+            <p className="md:text-lg text-base text-justify pt-10 max-w-100 m-auto mt-5" data-aos="fade-up">
               An inward-facing microphone listens inside your ear for unwanted
               sound which is also eliminated with anti-noise.
             </p>
